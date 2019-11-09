@@ -6,16 +6,16 @@
     width: 100%;
     z-index: 10;
     height: 50px;
-    
+    box-shadow: 0 1vw 50px #535353;
   }
 body{
     padding: 0;
     margin: 0;
     border: 0;
-    background: whitesmoke;
+    background: rgb(44, 44, 44);
 }
 .spacer{
-    height: 50px;
+    height: 80px;
 }
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -33,6 +33,10 @@ body{
   .topnav a:hover {
     background-color: #dddddd;
     color: black;
+  }
+
+  .imgContainer{
+    height: auto;
   }
   
   /* Add a color to the active/current link */
@@ -80,6 +84,10 @@ body{
   color: whitesmoke;
   font-size: 75px;
 }
+.container{
+  width: 80%;
+  margin: auto;
+}
 
 a{
   text-decoration: none;
@@ -98,28 +106,32 @@ a{
 }
 img{
     max-width: 100%;
+    overflow: hidden;
 }
 
 .Content{
     position: relative;
-    background: rgb(2, 2, 68);
+    background: rgb(2, 68, 24);
     color: rgb(190, 189, 218);
-    bottom: 15vw;
+    bottom: 12vw;
     left: -.8vw;
     width: 70%;
-    height: 10vw;
-    font-size: 4vw;
+    font-size: 3vw;
     vertical-align: middle;
     padding: auto;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 2vw 2vw 0;
     font-family: 'Nunito', sans-serif;
     text-align: center;
-    line-height:2.5;
+    line-height: 3;
     z-index: 5;
     box-shadow: .8vw 1vw 0 rgba(128, 128, 128, 0.712);
+    overflow: hidden;
 }
 
-
+hr{
+  color: whitesmoke;
+  margin: 5vh 0;
+}
   text{
     text-align: center;
     font-family: 'Nunito', sans-serif;
@@ -130,6 +142,13 @@ img{
     .topnav a, .topnav-right {
       float: none;
       display: block;
+    }
+    .container{
+      width: 100%;
+    }
+    .Content{
+      font-size: 4vw;
+      line-height: 2.5;
     }
     .topnav{
         position: absolute;
@@ -143,6 +162,6 @@ img{
       transform: none;
     }
     .spacer{
-        height: 250px;
+        height: 280px;
     }
   }
