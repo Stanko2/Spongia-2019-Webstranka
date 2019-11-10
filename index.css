@@ -14,7 +14,7 @@ body{
     background: rgb(44, 44, 44);
 }
 .spacer{
-    height: 80px;
+    height: 5vh;
 }
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -23,6 +23,7 @@ body{
     padding: 5px 5px;
     text-decoration: none;
     font-size: 30px;
+    transition: background .5s;
   }
   
   /* Change the color of links on hover */
@@ -68,7 +69,7 @@ body{
   text-align: center;
   font-family: 'Nunito', sans-serif;
   font-size: 50px;
-  transition: .5s;
+  transition: background .5s;
 }
 
 .downloadBTN a{
@@ -128,6 +129,7 @@ img{
     overflow: hidden;
 }
 
+
 .aboutGameText{
   background: rgb(2, 68, 24);
   color: rgb(190, 189, 218);
@@ -147,14 +149,18 @@ hr{
   color: whitesmoke;
   margin: 5vh 0;
 }
-text{
+.text{
   text-align: center;
   font-family: 'Nunito', sans-serif;
+}
+.text p{
+  font-size: .75cm;
 }
 
   /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
   @media screen and (max-width: 1000px) {
     .topnav a, .topnav-right, .topnav-left {
+      position: relative;
       float: none;
       display: block;
     }
