@@ -1,5 +1,5 @@
   /* Add a black background color to the top navigation */
-.topnav {
+  .topnav {
     position: relative;
     background-color: #333333;
     overflow: hidden;
@@ -181,5 +181,7 @@ hr{
       left: 0;
       transform: none;
     }
+    .spacer{
+        height: 280px;
+    }
   }
-  
