@@ -1,5 +1,5 @@
   /* Add a black background color to the top navigation */
-.topnav {
+  .topnav {
     position: relative;
     background-color: #333333;
     overflow: hidden;
@@ -179,4 +179,3 @@ text{
         height: 280px;
     }
   }
-  
